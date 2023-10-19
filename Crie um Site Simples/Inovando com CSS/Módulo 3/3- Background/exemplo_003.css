@@ -1,0 +1,10 @@
+body{
+    background-image: url('gato.jpg');
+    background-repeat: repeat; /* horizontal: repeat-x | vertical: repeat-y */
+    background-attachment: fixed; /* Define se o plano de fundo será fixo ou rolará junto da página */
+    background-position: center; /* Define a posição da imagem */
+   
+    /* Encurtando com background: ;
+    background: url('gato.jpg') repeat fixed, center;
+    */
+}

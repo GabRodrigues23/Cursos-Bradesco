@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js05_For</title>
+</head>
+<body>
+    <script language="Javascript">
+        <!--
+        /* Objetivo: Aplicação do Laço Incondicional <for>, incrementando +2 na variável js_num e apresentando os
+        valores acumulados de 1 a 10.
+        */
+        /* Definicao das variaveis */
+        var js_num;
+        document.write('<p>Apresentação dos valores acumulados para js_num=1 e menor ou igual a 10 incrementando a variável de +=2:');
+        document.write('<p>(Note que o limite irá até 9, pois 9+2=11, portanto será maior do que 10)');
+        /* Aplicação do Laço Incondicional - for */
+        for (js_num=1; js_num<=10; js_num+=2) {
+         document.write('<p>' + js_num);
+         }
+        //-->
+        </script>
+        
+</body>
+</html>
+
+<!--
+var js_num
+document.write('Apresentação dos valores acumulados para js_num=1 e menor ou igual a 10 incrementando a variável de +=2:')
+document.write('(Note que o limite irá até 9, pois 9+2=11, portanto será maior do que 10)')
+
+for(js_num = 1; js_num <= 10; js_num+=2){
+    document.write('' + js_num)
+}
+-->

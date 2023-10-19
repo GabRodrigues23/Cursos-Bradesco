@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js02_Estrutura2</title>
+</head>
+<body>
+    <h3>Programa de Boas Vindas!</h3>
+
+    <script language="javascript"> // Opcional
+
+        /*  Objetivo: Capturar o nome do usuário e apresentar uma saudação personalizada
+        > Definir as variáveis com o prefixo js_
+        > Elementos de Entrada: método prompt do objeto window
+        > Elementos de Saída: método write do objeto document  */
+
+        /*  Definição de Variáveis  */
+        var js_nome;
+
+        /*  Entrada de Dados  */
+        js_nome = window.prompt('Entre com seu nome: ' , 'Digite seu nome nessa caixa');
+
+        /*  Saída de Dados  */
+        document.write('Ol\u00e1 ' + js_nome + ' Seja Bem Vindo!') // Mensagem de Saudação Personalizada -> u00e1 = á
+
+    </script>
+</body>
+</html>

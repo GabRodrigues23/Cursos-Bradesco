@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js04_Operador-Ternario</title>
+</head>
+<body>
+    <script language="Javascript">
+        <!--
+        /* Objetivo:
+        Exemplos práticos de aplicações com Operador Ternário ?:, Operadores Relacionais e Expressão Aritmética.
+        Utilização da sintaxe: (<condição>) ? <expressão para resultado verdadeiro> : <expressão para resultado falso>
+        */
+        /* Definicao das variaveis */
+        document.write('<p>------------------------------------------...');
+        document.write('<p>DEFINIÇÃO E ATRIBUIÇÃO DE VARIÁVEIS:');
+        document.write('<p>var js_num = <b>30</b>; (js_num recebe o valor 30)');
+        var js_num = 30;
+        /* Aplicação de Operador Ternário utilizando Operadores Relacionais */
+        document.write('<p>------------------------------------------...');
+        document.write('<p>OPERADOR TERNÁRIO <b>(? :)</b> com OPERADORES RELACIONAIS (==, !=, <):');
+        document.write('<p>js_num <b>==</b> 20 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+        ((js_num == 20) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+        document.write('<p>js_num <b>!=</b> 20 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+        ((js_num != 20) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+        document.write('<p>js_num <b><</b> 50 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+        ((js_num < 50) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+        /* Aplicação de Operador Ternário utilizando Expressão Artimética e Operador Relacional */
+        document.write('<p>------------------------------------------...');
+        document.write('<p>OPERADOR TERNÁRIO com EXPRESSÃO ARITMÉTICA:');
+        document.write('<p>(js_num <b>-</b> 20) <b>==</b> 0 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+        ((js_num - 20) == 0) ? document.write('<b>SIM</b> + js_num') : document.write('<b>NÃO</b>');
+        //-->
+        </script> 
+</body>
+</html>
+
+<!--
+O código acima somente imprime o código abaixo no navegador. (não tem uso a não ser explicativo)
+
+var num = 30;
+num == 20 ? 'sim' : 'não' // retorna 'não'
+num != 20 ? 'sim' : 'não' // retorna 'sim'
+num < 50 ? 'sim' : 'não' // retorna 'sim'
+(num – 20) == 0 ? 'sim' : 'não' // retorna 'não'
+-->

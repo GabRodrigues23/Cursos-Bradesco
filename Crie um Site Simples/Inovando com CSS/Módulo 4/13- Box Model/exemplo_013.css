@@ -1,0 +1,12 @@
+body{
+    margin: 100px 40px 10px 70px;
+/*  margin: top  right  bottom  left*/
+}
+h1{
+    background: orange;
+    margin: 10px 10px 10px 30px;
+}
+p{
+    background: yellow;
+    padding-left: 50px;
+}

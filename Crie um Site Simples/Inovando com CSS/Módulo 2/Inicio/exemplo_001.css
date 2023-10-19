@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+/* Estilizar o link */
+a:link{color: green;} /* Cor do link da página */
+a:visited{color: yellow;} /* Cor do link depois de visitado */
+a:hover{color:black;} /* Cor do link com o mouse sobre ele */
+a:active{color:blue;} /* Cor do link enquanto o mouse estiver clicando (Efeito visível se segurar) */

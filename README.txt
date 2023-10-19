@@ -1,0 +1,1 @@
+Nessa pasta estão as trilhas de conhecimentos proporcionados pelos cursos gratuitos da bradesco, entrando nas páginas estão os cursos e seus certificados respectivamente.

@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+}
+
+p{
+    /* font-family cria um conjunto de fontes do qual o navegador procura da esquerda para a direita, caso a primeira fonte não se encontre no computador do usuário, o navegador por padrão exibirá a proxima
+    ex: font-family: Verdana, Geneva, Arial, sans-serif
+                            ->      ->     -> */
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.normal{
+    font-style: normal;
+    font-size: 150%; /* indica a porcentagem da fonte em relação ao tamanho do elemento pai (body -> font: 20px;) */
+}
+
+.italic{
+    font-style: italic;
+    font-size: 1.5em; /* calcula o tamanho da fonta a partir da relação ao tamanho do elemento pai (body -> font: 20px;) */
+}
+
+.oblique{
+    font-style: oblique;
+    font-size: large; /* Também podemos determinar através de palavras chaves // varia de acordo com o browser */
+}
+
+/* Por padrão
+h1 tem 150% do corpo definido
+h2 tem 120% do corpo definido
+p não possui valor definido, portanto é small
+*/

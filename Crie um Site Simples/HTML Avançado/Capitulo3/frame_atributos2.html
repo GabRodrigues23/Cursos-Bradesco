@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame Estrutura 03</title>
+</head>
+<!--Atributos do Frame-->
+<frameset cols="">
+    <frame src="frame_a.html" name="frameA">
+    <frame src="frame_b.html" name="frameB">
+    <frame src="frame_c.html" name="frameC">
+</frameset>
+</html>
+<!--
+Após especificar um nome para um frame, é possível torna-lo um frame alvo em um link, ou seja, a partir de outro documento, chamar aquele frame específico.
+sintaxe:
+<a href="URL" target="nome_frame">
+
+A tag target possuí quatro atributos:
+_blank: abre o link em uma nova janela
+_self: abre o link no mesmo frame
+_parent: carrega a página no frame principal
+_top: carrega a página no frame mais alto da página
+
+-->

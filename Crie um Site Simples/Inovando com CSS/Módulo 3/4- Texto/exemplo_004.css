@@ -1,0 +1,25 @@
+body{
+    color: blue;
+}
+
+h1{
+    color: #00ff00; /* Também pode ser #0f0 (pois há dois 0, dois f e outros dois 0)*/
+    text-align: center;
+    text-transform: uppercase; /* Transforma o texto (no caso todas as letras em maiúsculas) */
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    text-align: right;
+}
+
+p{
+    text-decoration: line-through;
+    text-transform: capitalize; /* Somente a primeira letra em  maiúscula */
+    text-indent: 3%; /* Determina um parágrafo na 1° linha do texto */
+}
+
+a{
+    text-decoration: none;
+    
+}

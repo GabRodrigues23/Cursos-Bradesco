@@ -1,0 +1,14 @@
+a{
+    color: blue;
+}
+
+a.virtuais{
+    color: #f00;
+}
+
+a.estrategia{
+    color: #1c0;
+}
+/*
+Classes são utilizadas para aplicar estilos a um elemento ou um grupo de elementos.
+*/

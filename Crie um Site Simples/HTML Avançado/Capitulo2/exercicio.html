@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Table e Form</title>
+</head>
+<body>
+    <h2><font color="blue">Formulário para cadastro</font></h2>
+    <table>
+        <form action="GET">
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="nome" size="30"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="endereco" placeholder="exemplo@email.com" size="30"></td>
+            </tr>
+            <tr>
+                <td>Sexo</td>
+                <td><input type="radio" name="sx" size="15">Masculino
+                <input type="radio" name="sx" size="15">Feminino</td>
+            </tr>
+            <tr>
+                <td>RG</td>
+                <td><input type="text" name="RG" size="30" minlength="9" maxlength="9" placeholder="00.000.000-0"></td>
+            </tr>
+            <tr>
+                <td>CPF</td>
+                <td><input type="text" name="CPF" size="30" minlength="11" maxlength="11" placeholder="000.000.000.00"></td>
+            </tr>
+            <tr>
+                <td>Login</td>
+                <td><input type="text" name="login" size="30" required></td>
+            </tr>
+            <tr>
+                <td>Senha</td>
+                <td><input type="password" name="senha" size="30" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar">
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

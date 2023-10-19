@@ -1,0 +1,11 @@
+#insetos{
+    background: #ffeaea;
+}
+
+#repteis{
+    background: #fff7dd;
+}
+/*
+Span e Div são elementos utilizados para estruturar e agrupar respectivamente um documento, o elemento span é neutro e não adiciona qualquer tipo de semântica no documento ao mesmo tempo que pode ser utilizado para inserir efeitos visuais em partes especificas do texto através do CSS
+Div - Utilizado para códigos em bloco
+*/

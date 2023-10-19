@@ -1,0 +1,6 @@
+div.box{
+    width: 200px; /* Largura */
+    height: 500px; /* Altura */
+    border: 1px solid black;
+    background: orange;
+}

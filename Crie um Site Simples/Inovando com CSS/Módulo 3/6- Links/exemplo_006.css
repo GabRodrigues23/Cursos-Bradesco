@@ -1,0 +1,10 @@
+a{
+    color: #00f;
+}
+
+/* Estilizar o link */
+a:link{color: green;} /* Cor do link da página */
+a:visited{color: yellow;} /* Cor do link depois de visitado */
+a:hover{color:black;} /* Cor do link com o mouse sobre ele */
+a:active{color:blue;} /* Cor do link enquanto o mouse estiver clicando (Efeito visível se segurar) 
+A ORDEM DAS PROPRIEDADES É RELEVANTE: hover sempre deve vir depois de link e visited. Active sempre deve vir depois de hover */

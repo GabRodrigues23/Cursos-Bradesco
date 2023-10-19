@@ -1,0 +1,13 @@
+#imagem{
+    float: left;
+    width: 100px; /* Determina uma distância para o texto, se diminuido este sobrescreverá a imagem */
+}
+
+p{
+    clear: both; 
+}
+/*
+A propriedade Float permite que um elemento flutue na pagina à esquerda ou direita. se aplicarmos essa propriedade em um box, ele será deslocado para o lado definido do documento e o box seguinte ocupará seu espaço.
+A propriedade Clear é um complemento da propriedade float utilizado para controlar o comportamento dos elementos que seguem os elementos com float na página. 
+ex: Both - A imagem superior deste box será posicionada sempre abaixo da margem inferior dos boxes flutuantes que estejam antes deles no código.
+*/

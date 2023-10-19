@@ -1,0 +1,20 @@
+#flor1{
+    position:  relative;
+    left: 5px;
+    bottom: 15px;
+}
+
+#flor2{
+    position: relative;
+    left: 15px;
+    bottom: 50px;
+}
+
+#flor3{
+    position: relative;
+    left: 35px;
+    bottom: 70px;
+}
+/*
+A diferença entre o posicionamento absoluto e o relativo é a maneira como ele é calculado. Posição relativa é calculada com base na posição original do elemento, pois existe uma movimentação relativa para a esquerda, para a direita, para cima ou para baixo. Assim o elemento ocupa um espaço após ser posicionado.
+*/
